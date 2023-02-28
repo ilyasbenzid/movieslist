@@ -1,0 +1,145 @@
+body{
+  overflow-x: hidden;
+  
+
+}
+.App{
+flex-direction: column;
+  display: flex;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  color: white;
+  height: 70px;
+  padding: 0 30px;
+  position: fixed;
+  width: 96vw;
+}
+
+.navbar-logo {
+  height: 25px;
+  object-fit: contain;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #555;
+  transition: 100ms;
+}
+.navbar-link:hover{
+  font-size: large;
+color:rgb(255, 255, 255);
+
+
+}
+
+.navbar-link:last-child {
+  margin-right: 0;
+}
+.text-input {
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: none;
+  color: #555;
+}
+
+.text-input::placeholder {
+  color: #999;
+}
+
+.navbar-video {
+
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  width: 2000px;
+  height: 1000px;
+  padding: 20px;
+  border: 1px solid #ccc;
+margin-left: -50px;
+margin-top:50px ;
+border: #141414;
+background-color: #141414;
+
+
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}p
+
+.navbar-link {
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button-in{
+ background-color: #db3434;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.button-in:hover{
+font-size: large;
+}
+.imglist{
+height: 200px;
+width: 250px;
+border-radius: 30%;
+display: flex;
+flex-wrap: wrap;
+margin-top: 100px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.image-container {
+  display: flex;
+color: #db3434;
+background-color: #141414;
+padding-bottom: 50px;
+
+}
+
+.bnt{
+background-color: #db3434;
+}
+.show{
+background-color: #db3434;
+color: white;
+font-size: small;
+border-radius: 20px;
+}
